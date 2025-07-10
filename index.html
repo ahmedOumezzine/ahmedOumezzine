@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>CV – Ahmed Oumezzine</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Consolas','Courier New',monospace;}
+    body{background:#000;color:#d4d4d4;padding:20px;display:flex;justify-content:center;}
+    .container{display:flex;max-width:1200px;width:100%;}
+    .right{flex:4;padding-right:20px;border-right:1px solid #333;}
+    .left{flex:8;padding-left:20px;}
+    pre.line{margin-bottom:5px;white-space:pre-wrap;}
+    .comment{color:#6a9955;}
+    .keyword{color:#569cd6;}
+    .class-name{color:#4ec9b0;}
+    .string{color:#ce9178;}
+    .number{color:#b5cea8;}
+    .block{margin-left:0.3rem;border-left:1px dotted #3c3c3c;padding-left:1.1rem;}
+    .photo{width:120px;height:120px;border-radius:50%;object-fit:cover;margin-bottom:20px;border:2px solid #4ec9b0;}
+    a{color:#ce9178;text-decoration:none;font-style:italic;}
+    a:hover{text-decoration:underline;}
+    @media(max-width:768px){.container{flex-direction:column;} .right{border:none;padding:0;} .left{padding:0;}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Droite -->
+    <div class="right">
+      <img src="https://placehold.co/120x120/EEE/31343C?text=Photo" alt="Photo Ahmed Oumezzine" class="photo">
+      <pre class="line"><span class="keyword">public class</span> <span class="class-name">COMPÉTENCES</span> {</pre>
+      <div class="block">
+        <pre class="line">".NET", "ASP.NET Core", "Blazor", "C#"</pre>
+        <pre class="line">"JavaScript", "React", "HTML", "CSS"</pre>
+        <pre class="line">"SQL", "Azure", "DevOps", "Git"</pre>
+      </div>
+      <pre class="line">}</pre>
+      <pre class="line"><span class="keyword">public enum</span> <span class="class-name">CERTIFICATIONS</span> {</pre>
+      <div class="block">
+        <pre class="line">AZ900,    // Microsoft Certified: Azure Fundamentals</pre>
+        <pre class="line">AZ204,    // Microsoft Certified: Azure Developer Associate</pre>
+      </div>
+      <pre class="line">}</pre>
+      <pre class="line"><span class="keyword">public class</span> <span class="class-name">MEDIA</span> {</pre>
+      <div class="block">
+        <pre class="line">LinkedIn = <a href="https://www.linkedin.com/in/ahmedoumezzine/" target="_blank">"linkedin.com/in/ahmedoumezzine"</a>;</pre>
+        <pre class="line">GitHub   = <a href="https://github.com/ahmedOumezzine" target="_blank">"github.com/ahmedOumezzine"</a>;</pre>
+      </div>
+      <pre class="line">}</pre>
+      <pre class="line"><span class="keyword">public class</span> <span class="class-name">LANGUES</span> {</pre>
+      <div class="block">
+        <pre class="line">Français = <span class="string">"B2"</span>;</pre>
+        <pre class="line">Anglais  = <span class="string">"B2"</span>;</pre>
+        <pre class="line">Arabe    = <span class="string">"B2"</span>; <span class="comment">// langue maternelle</span></pre>
+      </div>
+      <pre class="line">}</pre>
+    </div>
+
+    <!-- Gauche -->
+    <div class="left">
+      <pre class="line"><span class="keyword">public class</span> <span class="class-name">INFORMATION</span> {</pre>
+      <div class="block">
+        <pre class="line">Nom         = <span class="string">"Ahmed Oumezzine"</span>;</pre>
+        <pre class="line">Titre       = <span class="string">"Développeur Full Stack .NET"</span>;</pre>
+        <pre class="line">Email       = <span class="string">"ahmedoumezzine@outlook.fr"</span>;</pre>
+        <pre class="line">Téléphone   = <span class="string">"92010344"</span>;</pre>
+        <pre class="line">Âge         = <span class="number">33</span>;</pre>
+        <pre class="line">Localisation= <span class="string">"Canada"</span>;</pre>
+      </div>
+      <pre class="line">}</pre>
+      <pre class="line"><span class="keyword">public partial class</span> <span class="class-name">FORMATIONS</span> : ÉcolesSupérieures {</pre>
+      <div class="block">
+        <pre class="line"><span class="keyword">private void</span> MasterInformatique() {</pre>
+        <div class="block">
+          <pre class="line">var _Durée = Range(début: <span class="string">"08/2018"</span>, fin: <span class="string">"06/2020"</span>);</pre>
+          <pre class="line">var _Établissement = <span class="string">"Université de Montréal"</span>;</pre>
+          <pre class="line">var _Type = <span class="string">"Master"</span>;</pre>
+        </div><pre class="line">}</pre>
+        <pre class="line"><span class="keyword">private void</span> IngenieurInformatique() {</pre>
+        <div class="block">
+          <pre class="line">var _Durée = Range(début: <span class="string">"09/2014"</span>, fin: <span class="string">"06/2017"</span>);</pre>
+          <pre class="line">var _Établissement = <span class="string">"ESPRIM"</span>;</pre>
+          <pre class="line">var _Type = <span class="string">"Ingénieur"</span>;</pre>
+        </div><pre class="line">}</pre>
+        <pre class="line"><span class="keyword">private void</span> LicenceInformatique() {</pre>
+        <div class="block">
+          <pre class="line">var _Durée = Range(début: <span class="string">"09/2011"</span>, fin: <span class="string">"06/2014"</span>);</pre>
+          <pre class="line">var _Établissement = <span class="string">"Faculté des Sciences de Monastir"</span>;</pre>
+          <pre class="line">var _Type = <span class="string">"Licence"</span>;</pre>
+        </div><pre class="line">}</pre>
+      </div>
+      <pre class="line">}</pre>
+      <pre class="line"><span class="keyword">public static class</span> <span class="class-name">EXPÉRIENCES</span> {</pre>
+      <div class="block">
+        <pre class="line"><span class="keyword">public void</span> CGI() {</pre>
+        <div class="block">
+          <pre class="line">var _Durée = Range(début: <span class="string">"01/2019"</span>, fin: <span class="string">"12/2022"</span>);</pre>
+          <pre class="line">var _Lieu = <span class="string">"Canada"</span>;</pre>
+          <pre class="line">var _Type = new <span class="string">CDI()</span>;</pre>
+          <pre class="line">/* Développement Full Stack .NET — chef de projets architecturaux, APIs, client Blazor */</pre>
+        </div><pre class="line">}</pre>
+        <pre class="line"><span class="keyword">public void</span> SWMA() {</pre>
+        <div class="block">
+          <pre class="line">var _Durée = Range(début: <span class="string">"01/2018"</span>, fin: <span class="string">"12/2018"</span>);</pre>
+          <pre class="line">var _Type = new <span class="string">CDI()</span>;</pre>
+          <pre class="line">/* Création de plateformes web marketing, e‑commerce, CRM */</pre>
+        </div><pre class="line">}</pre>
+        <pre class="line"><span class="keyword">public void</span> RootSaudi() {</pre>
+        <div class="block">
+          <pre class="line">var _Durée = Range(début: <span class="string">"07/2016"</span>, fin: <span class="string">"01/2018"</span>);</pre>
+          <pre class="line">var _Type = new <span class="string">CDI()</span>;</pre>
+          <pre class="line">/* Conception et développement de plateformes C#/PHP */</pre>
+        </div><pre class="line">}</pre>
+        <pre class="line"><span class="keyword">public void</span> PFCommunications() {</pre>
+        <div class="block">
+          <pre class="line">var _Durée = Range(début: <span class="string">"07/2015"</span>, fin: <span class="string">"01/2016"</span>);</pre>
+          <pre class="line">var _Type = new <span class="string">CDI()</span>;</pre>
+          <pre class="line">/* Développement full‑stack et gestion SEO, infolettre */</pre>
+        </div><pre class="line">}</pre>
+        <pre class="line"><span class="keyword">public void</span> WindConsulting() {</pre>
+        <div class="block">
+          <pre class="line">var _Durée = Range(début: <span class="string">"01/2014"</span>, fin: <span class="string">"08/2014"</span>);</pre>
+          <pre class="line">var _Type = new <span class="string">CDI()</span>;</pre>
+          <pre class="line">/* Développement d’applications .NET interne */</pre>
+        </div><pre class="line">}</pre>
+        <pre class="line"><span class="keyword">public void</span> ProxymStage() {</pre>
+        <div class="block">
+          <pre class="line">var _Durée = Range(début: <span class="string">"06/2013"</span>, fin: <span class="string">"09/2013"</span>);</pre>
+          <pre class="line">var _Type = new <span class="string">Stage()</span>;</pre>
+          <pre class="line">/* Stage .NET — conception et tests de modules internes */</pre>
+        </div><pre class="line">}</pre>
+        <pre class="line"><span class="keyword">public void</span> CICStage() {</pre>
+        <div class="block">
+          <pre class="line">var _Durée = Range(début: <span class="string">"01/2013"</span>, fin: <span class="string">"04/2013"</span>);</pre>
+          <pre class="line">var _Type = new <span class="string">Stage()</span>;</pre>
+          <pre class="line">/* Stage .NET — réalisation d’outils bancaires */</pre>
+        </div><pre class="line">}</pre>
+        <pre class="line"><span class="keyword">public void</span> CloudStoreStage() {</pre>
+        <div class="block">
+          <pre class="line">var _Durée = Range(début: <span class="string">"08/2012"</span>, fin: <span class="string">"01/2013"</span>);</pre>
+          <pre class="line">var _Type = new <span class="string">Stage()</span>;</pre>
+          <pre class="line">/* Stage .NET — développement web interne */</pre>
+        </div><pre class="line">}</pre>
+      </div><pre class="line">}</pre>
+    </div>
+  </div>
+</body>
+</html>
