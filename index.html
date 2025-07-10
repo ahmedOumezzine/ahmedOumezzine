@@ -1,64 +1,91 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>CV – Ahmed Oumezzine</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV – Ahmed Oumezzine</title>
   <style>
-    *{margin:0;padding:0;box-sizing:border-box;font-family:'Consolas','Courier New',monospace;}
-    body{background:#000;color:#d4d4d4;padding:20px;display:flex;justify-content:center;}
-    .container{display:flex;max-width:1200px;width:100%;}
-    .right{flex:4;padding-right:20px;border-right:1px solid #333;}
-    .left{flex:8;padding-left:20px;}
-    pre.line{margin-bottom:5px;white-space:pre-wrap;}
-    .comment{color:#6a9955;}
-    .keyword{color:#569cd6;}
-    .class-name{color:#4ec9b0;}
-    .string{color:#ce9178;}
-    .number{color:#b5cea8;}
-    .block{margin-left:0.3rem;border-left:1px dotted #3c3c3c;padding-left:1.1rem;}
-    .photo{width:120px;height:120px;border-radius:50%;object-fit:cover;margin-bottom:20px;border:2px solid #4ec9b0;}
-    a{color:#ce9178;text-decoration:none;font-style:italic;}
-    a:hover{text-decoration:underline;}
-    @media(max-width:768px){.container{flex-direction:column;} .right{border:none;padding:0;} .left{padding:0;}}
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Consolas', 'Courier New', monospace;
+    }
+    body {
+      background: #000;
+      color: #d4d4d4;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      display: flex;
+      max-width: 1200px;
+      width: 100%;
+    }
+    .right {
+      flex: 4;
+      padding-right: 20px;
+      border-right: 1px solid #333;
+    }
+    .left {
+      flex: 8;
+      padding-left: 20px;
+    }
+    pre.line {
+      margin-bottom: 5px;
+      white-space: pre-wrap;
+    }
+    .comment {
+      color: #6a9955;
+    }
+    .keyword {
+      color: #569cd6;
+    }
+    .class-name {
+      color: #4ec9b0;
+    }
+    .string {
+      color: #ce9178;
+    }
+    .number {
+      color: #b5cea8;
+    }
+    .block {
+      margin-left: 20px;
+    }
+    a {
+      color: #ce9178;
+      text-decoration: none;
+      font-style: italic;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      .right {
+        border-right: none;
+      }
+    }
+	.photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 2px solid #4ec9b0;
+}
   </style>
 </head>
 <body>
   <div class="container">
     <!-- Droite -->
     <div class="right">
-      <img src="https://placehold.co/120x120/EEE/31343C?text=Photo" alt="Photo Ahmed Oumezzine" class="photo">
-      <pre class="line"><span class="keyword">public class</span> <span class="class-name">COMPÉTENCES</span> {</pre>
-      <div class="block">
-        <pre class="line">".NET", "ASP.NET Core", "Blazor", "C#"</pre>
-        <pre class="line">"JavaScript", "React", "HTML", "CSS"</pre>
-        <pre class="line">"SQL", "Azure", "DevOps", "Git"</pre>
-      </div>
-      <pre class="line">}</pre>
-      <pre class="line"><span class="keyword">public enum</span> <span class="class-name">CERTIFICATIONS</span> {</pre>
-      <div class="block">
-        <pre class="line">AZ900,    // Microsoft Certified: Azure Fundamentals</pre>
-        <pre class="line">AZ204,    // Microsoft Certified: Azure Developer Associate</pre>
-      </div>
-      <pre class="line">}</pre>
-      <pre class="line"><span class="keyword">public class</span> <span class="class-name">MEDIA</span> {</pre>
-      <div class="block">
-        <pre class="line">LinkedIn = <a href="https://www.linkedin.com/in/ahmedoumezzine/" target="_blank">"linkedin.com/in/ahmedoumezzine"</a>;</pre>
-        <pre class="line">GitHub   = <a href="https://github.com/ahmedOumezzine" target="_blank">"github.com/ahmedOumezzine"</a>;</pre>
-      </div>
-      <pre class="line">}</pre>
-      <pre class="line"><span class="keyword">public class</span> <span class="class-name">LANGUES</span> {</pre>
-      <div class="block">
-        <pre class="line">Français = <span class="string">"B2"</span>;</pre>
-        <pre class="line">Anglais  = <span class="string">"B2"</span>;</pre>
-        <pre class="line">Arabe    = <span class="string">"B2"</span>; <span class="comment">// langue maternelle</span></pre>
-      </div>
-      <pre class="line">}</pre>
-    </div>
-
-    <!-- Gauche -->
-    <div class="left">
-      <pre class="line"><span class="keyword">public class</span> <span class="class-name">INFORMATION</span> {</pre>
+      <img src="https://media.licdn.com/dms/image/v2/D4E03AQFWxBbOEc8L8Q/profile-displayphoto-shrink_800_800/B4EZbHokRVGcAc-/0/1747106022902?e=1757548800&v=beta&t=mXek08T2weQUy9Z58oF5hftC7J1ZvsvHFE6CHT2JqhA" alt="Photo Ahmed Oumezzine" class="photo">
+	  <pre class="line"><span class="keyword">public class</span> <span class="class-name">INFORMATION</span> {</pre>
       <div class="block">
         <pre class="line">Nom         = <span class="string">"Ahmed Oumezzine"</span>;</pre>
         <pre class="line">Titre       = <span class="string">"Développeur Full Stack .NET"</span>;</pre>
@@ -68,25 +95,63 @@
         <pre class="line">Localisation= <span class="string">"Canada"</span>;</pre>
       </div>
       <pre class="line">}</pre>
-      <pre class="line"><span class="keyword">public partial class</span> <span class="class-name">FORMATIONS</span> : ÉcolesSupérieures {</pre>
+	     <pre class="line"><span class="keyword">public string</span> ProfileDescription = <span class="string">"Développeur Full Stack passionné par les nouvelles technologies, j'ai développé des compétences solides en développement d’applications web (ASP.NET Core, Blazor, Angular), en intégration d’API et en gestion de projets cloud (Azure, AWS). J’aime transformer des idées en solutions robustes et évolutives."</span>;</pre>
+      <pre class="line"><span class="keyword">public string</span> MissionStatement = <span class="string">"Mon objectif est de proposer des solutions innovantes et scalables, tout en optimisant les processus techniques et en assurant une expérience utilisateur de qualité."</span>;</pre>
+    
+      <pre class="line"><span class="keyword">public class</span> <span class="class-name">COMPÉTENCES</span> {</pre>
       <div class="block">
-        <pre class="line"><span class="keyword">private void</span> MasterInformatique() {</pre>
-        <div class="block">
-          <pre class="line">var _Durée = Range(début: <span class="string">"08/2018"</span>, fin: <span class="string">"06/2020"</span>);</pre>
-          <pre class="line">var _Établissement = <span class="string">"Université de Montréal"</span>;</pre>
-          <pre class="line">var _Type = <span class="string">"Master"</span>;</pre>
-        </div><pre class="line">}</pre>
+        <pre class="line">Language.Add(CSharp, JavaScript, TypeScript, HTML, CSS, PHP);</pre>
+        <pre class="line">Web.Add(Bootstrap, ResponsiveDesign, JSON);</pre>
+        <pre class="line">Framework.Add(DotNET, ASPDotNETCore, MVC, EntityFramework, ReactJS, VueJS, Angular, Docker, WindowsServer);</pre>
+        <pre class="line">Database.Add(SQLServer, MySQL, PostgreSQL, SQLite);</pre>
+        <pre class="line">DevOps.Add(Git, AzureDevOps, AWS, Docker);</pre>
+      </div>
+      <pre class="line">}</pre>
+      <pre class="line"><span class="keyword">public enum</span> <span class="class-name">CERTIFICATIONS</span> {</pre>
+      <div class="block">
+        <pre class="line">AZ900,    <span class="comment">// Microsoft Certified: Azure Fundamentals</span></pre>
+        <pre class="line">AZ204,    <span class="comment">// Microsoft Certified: Azure Developer Associate</span></pre>
+      </div>
+      <pre class="line">}</pre>
+      <pre class="line"><span class="keyword">public static class</span> <span class="class-name">MEDIA</span> {</pre>
+      <div class="block">
+        <pre class="line">LinkedIn = <a href=" https://www.linkedin.com/in/ahmedoumezzine/ " target="_blank">"linkedin.com/in/ahmedoumezzine"</a>;</pre>
+        <pre class="line">GitHub   = <a href="https://github.com/ahmedOumezzine " target="_blank">"github.com/ahmedOumezzine"</a>;</pre>
+        <pre class="line">Credly   = <a href="https://www.credly.com/users/ahmed-oumezzine/badges " target="_blank">"credly.com/users/ahmed-oumezzine"</a>;</pre>
+        <pre class="line">Medium   = <a href="https://medium.com/ @ahmedoumezzine" target="_blank">"medium.com/@ahmedoumezzine"</a>;</pre>
+        <pre class="line">Twitter  = <a href="https://x.com/aoumezzine " target="_blank">"x.com/aoumezzine"</a>;</pre>
+        <pre class="line">Blog     = <a href="https://blog.oumezzine.com/ " target="_blank">"blog.oumezzine.com"</a>;</pre>
+      </div>
+      <pre class="line">}</pre>
+      <pre class="line"><span class="keyword">public enum</span> <span class="class-name">LANGUES</span> {</pre>
+      <div class="block">
+        <pre class="line">ARABE = Native; <span class="comment">// Langue maternelle</span></pre>
+        <pre class="line">FRANÇAIS = C1; <span class="comment">// Compétence native</span></pre>
+        <pre class="line">ANGLAIS = B2;</pre>
+      </div>
+      <pre class="line">}</pre>
+      
+    </div>
+
+    <!-- Gauche -->
+    <div class="left">
+     <pre class="line"><span class="keyword">public partial class</span> <span class="class-name">FORMATIONS</span> : ÉcolesSupérieures {</pre>
+      <div class="block">
         <pre class="line"><span class="keyword">private void</span> IngenieurInformatique() {</pre>
         <div class="block">
           <pre class="line">var _Durée = Range(début: <span class="string">"09/2014"</span>, fin: <span class="string">"06/2017"</span>);</pre>
-          <pre class="line">var _Établissement = <span class="string">"ESPRIM"</span>;</pre>
-          <pre class="line">var _Type = <span class="string">"Ingénieur"</span>;</pre>
+          <pre class="line">var _Établissement = <span class="string">"École supérieure privée d'ingénieurs de Monastir"</span>;</pre>
+          <pre class="line">var _Type = <span class="string">"Ingénieur en Informatique"</span>;</pre>
+          <pre class="line"><span class="comment">// Formation centrée sur le développement logiciel, systèmes d'information, réseaux et technologies web.</span></pre>
+          <pre class="line"><span class="comment">// Travail sur des projets pratiques, stages en entreprise, et renforcement des compétences en architecture logicielle, sécurité et développement full stack.</span></pre>
         </div><pre class="line">}</pre>
         <pre class="line"><span class="keyword">private void</span> LicenceInformatique() {</pre>
         <div class="block">
           <pre class="line">var _Durée = Range(début: <span class="string">"09/2011"</span>, fin: <span class="string">"06/2014"</span>);</pre>
           <pre class="line">var _Établissement = <span class="string">"Faculté des Sciences de Monastir"</span>;</pre>
-          <pre class="line">var _Type = <span class="string">"Licence"</span>;</pre>
+          <pre class="line">var _Type = <span class="string">"Licence en Informatique"</span>;</pre>
+          <pre class="line"><span class="comment">// Formation fondamentale en algorithmique, programmation orientée objet, systèmes d'exploitation, bases de données et développement logiciel.</span></pre>
+          <pre class="line"><span class="comment">// Participation aux événements tech (Windows Dev Days, Azure Camp), encadrement d’ateliers sur le développement .NET et les outils Microsoft.</span></pre>
         </div><pre class="line">}</pre>
       </div>
       <pre class="line">}</pre>
@@ -95,53 +160,108 @@
         <pre class="line"><span class="keyword">public void</span> CGI() {</pre>
         <div class="block">
           <pre class="line">var _Durée = Range(début: <span class="string">"01/2019"</span>, fin: <span class="string">"12/2022"</span>);</pre>
-          <pre class="line">var _Lieu = <span class="string">"Canada"</span>;</pre>
-          <pre class="line">var _Type = new <span class="string">CDI()</span>;</pre>
-          <pre class="line">/* Développement Full Stack .NET — chef de projets architecturaux, APIs, client Blazor */</pre>
+          <pre class="line">var _Lieu = <span class="string">"Québec City, Canada"</span>;</pre>
+          <pre class="line">var _Role = <span class="string">"Développeur Full Stack .NET"</span>;</pre>
+          <pre class="line">var _Technologies = new string[] { 
+            <span class="string">".NET"</span>, <span class="string">"ASP.NET Core"</span>, <span class="string">"Blazor"</span>, <span class="string">"Azure"</span>, <span class="string">"Git"</span> };</pre>
+          <pre class="line"><span class="comment">// Développement d'applications web full stack .NET, conception d'API REST, intégration client Blazor, déploiement sur Azure.</span></pre>
         </div><pre class="line">}</pre>
         <pre class="line"><span class="keyword">public void</span> SWMA() {</pre>
         <div class="block">
           <pre class="line">var _Durée = Range(début: <span class="string">"01/2018"</span>, fin: <span class="string">"12/2018"</span>);</pre>
-          <pre class="line">var _Type = new <span class="string">CDI()</span>;</pre>
-          <pre class="line">/* Création de plateformes web marketing, e‑commerce, CRM */</pre>
+          <pre class="line">var _Lieu = <span class="string">"Tunisie"</span>;</pre>
+          <pre class="line">var _Role = <span class="string">"Développeur Full Stack"</span>;</pre>
+          <pre class="line">var _Technologies = new string[] { 
+            <span class="string">"ASP.NET MVC"</span>, <span class="string">"C#"</span>, <span class="string">"Angular"</span>, <span class="string">"SQL Server"</span>, <span class="string">"RESTful API"</span>, <span class="string">"JWT"</span>, <span class="string">"Docker"</span>, <span class="string">"Git"</span>, <span class="string">"Visual Studio"</span> };</pre>
+          <pre class="line"><span class="comment">// Développement de plateformes web marketing digital, e-commerce et CRM.</span></pre>
+          <pre class="line"><span class="comment">// Création d'applications robustes et personnalisées pour des clients internationaux.</span></pre>
         </div><pre class="line">}</pre>
-        <pre class="line"><span class="keyword">public void</span> RootSaudi() {</pre>
+        <pre class="line"><span class="keyword">public void</span> rootSaudi() {</pre>
         <div class="block">
-          <pre class="line">var _Durée = Range(début: <span class="string">"07/2016"</span>, fin: <span class="string">"01/2018"</span>);</pre>
-          <pre class="line">var _Type = new <span class="string">CDI()</span>;</pre>
-          <pre class="line">/* Conception et développement de plateformes C#/PHP */</pre>
+          <pre class="line"><span class="comment">// === Mission 1 – Développeur .NET (8 mois) ===</span></pre>
+          <pre class="line">var _Durée = Range(début: <span class="string">"01/2020"</span>, fin: <span class="string">"08/2020"</span>);</pre>
+          <pre class="line">var _Lieu = <span class="string">"Gouvernorat de Sfax, Tunisie · Sur site"</span>;</pre>
+          <pre class="line">var _Role = <span class="string">"Développeur .NET"</span>;</pre>
+          <pre class="line">var _Technologies = new string[] { 
+            <span class="string">"ASP.NET Core"</span>, <span class="string">"C#"</span>, <span class="string">"Angular"</span>, <span class="string">"TypeScript"</span>, <span class="string">"SQL Server"</span>, <span class="string">"RESTful API"</span>, <span class="string">"JWT"</span>, <span class="string">"OAuth2"</span>, <span class="string">"Git"</span>, <span class="string">"GitHub Actions"</span>, <span class="string">"Docker"</span>, <span class="string">"HTML5"</span>, <span class="string">"CSS3"</span>, <span class="string">"Scrum"</span> };</pre>
+          <pre class="line"><span class="comment">// Développement d'applications complexes, évolutives et sécurisées.</span></pre>
+          <pre class="line"><span class="comment">// Collaboration avec une équipe pluridisciplinaire pour répondre aux besoins des clients.</span></pre>
+          <pre class="line"><span class="comment">//</span></pre>
+          <pre class="line"><span class="comment">// • Architecture logicielle modulaire et orientée services.</span></pre>
+          <pre class="line"><span class="comment">// • Optimisation des requêtes SQL et gestion des performances serveur.</span></pre>
+          <pre class="line"><span class="comment">// • Ajout de nouvelles fonctionnalités pour la gestion des stocks et facturation.</span></pre>
+          <pre class="line"><span class="comment">// • Rédaction de tests unitaires et documentation technique.</span></pre>
+          <pre class="line"><span class="comment">// • Amélioration de l’interface utilisateur en collaboration avec l’équipe UX/UI.</span></pre>
+          <pre class="line"><span class="comment">// • Accompagnement technique des nouveaux membres de l'équipe.</span></pre>
+
+          <pre class="line"><span class="comment">// === Mission 2 – Stagiaire .NET (3 mois) ===</span></pre>
+          <pre class="line">var _Durée = Range(début: <span class="string">"06/2016"</span>, fin: <span class="string">"08/2016"</span>);</pre>
+          <pre class="line">var _Lieu = <span class="string">"Gouvernorat de Sfax, Tunisie · Hybride"</span>;</pre>
+          <pre class="line">var _Role = <span class="string">"Stagiaire - Développeur .NET"</span>;</pre>
+          <pre class="line">var _Technologies = new string[] { 
+            <span class="string">"ASP.NET Core"</span>, <span class="string">"C#"</span>, <span class="string">"Angular"</span>, <span class="string">"TypeScript"</span>, <span class="string">"SQL Server"</span>, <span class="string">"RESTful API"</span>, <span class="string">"JWT"</span>, <span class="string">"OAuth2"</span>, <span class="string">"Git"</span>, <span class="string">"Visual Studio"</span> };</pre>
+          <pre class="line"><span class="comment">// Stage chez Proxym Group, participation active au développement d’applications web et modules ERP.</span></pre>
+          <pre class="line"><span class="comment">// Création d’interfaces utilisateur modernes et implémentation de systèmes de sécurité avancés.</span></pre>
+          <pre class="line"><span class="comment">//</span></pre>
+          <pre class="line"><span class="comment">// • Développement d’applications web basées sur ASP.NET MVC.</span></pre>
+          <pre class="line"><span class="comment">// • Implémentation de modules ERP pour la comptabilité et les RH.</span></pre>
+          <pre class="line"><span class="comment">// • Création d'interfaces utilisateur modernes avec HTML5, CSS3 et JavaScript.</span></pre>
+          <pre class="line"><span class="comment">// • Tests unitaires, débogage et correction de bugs avant livraison.</span></pre>
+          <pre class="line"><span class="comment">// • Rédaction de documentation technique pour faciliter la maintenance.</span></pre>
         </div><pre class="line">}</pre>
         <pre class="line"><span class="keyword">public void</span> PFCommunications() {</pre>
         <div class="block">
-          <pre class="line">var _Durée = Range(début: <span class="string">"07/2015"</span>, fin: <span class="string">"01/2016"</span>);</pre>
-          <pre class="line">var _Type = new <span class="string">CDI()</span>;</pre>
-          <pre class="line">/* Développement full‑stack et gestion SEO, infolettre */</pre>
+          <pre class="line">var _Durée = Range(début: <span class="string">"02/2018"</span>, fin: <span class="string">"07/2018"</span>);</pre>
+          <pre class="line">var _Lieu = <span class="string">"Montréal, Québec, Canada · À distance"</span>;</pre>
+          <pre class="line">var _Role = <span class="string">"Développeur Full Stack"</span>;</pre>
+          <pre class="line">var _Technologies = new string[] { 
+            <span class="string">"ASP.NET MVC"</span>, <span class="string">"C#"</span>, <span class="string">"JavaScript"</span>, <span class="string">"jQuery"</span>, <span class="string">"SQL Server"</span>,
+            <span class="string">"HTML5"</span>, <span class="string">"CSS3"</span>, <span class="string">"Git"</span>, <span class="string">"Visual Studio"</span>, <span class="string">"DevOps"</span> };</pre>
+          <pre class="line"><span class="comment">// Développement de solutions web modernes et interactives pour améliorer la communication et la visibilité des clients.</span></pre>
+          <pre class="line"><span class="comment">// Conception et développement d’applications web robustes avec ASP.NET MVC et JavaScript.</span></pre>
+          <pre class="line"><span class="comment">// Création d’interfaces utilisateur dynamiques avec jQuery.</span></pre>
+          <pre class="line"><span class="comment">// Gestion et optimisation des bases de données SQL Server.</span></pre>
+          <pre class="line"><span class="comment">// Travail en équipe Agile avec daily meetings.</span></pre>
+          <pre class="line"><span class="comment">// Déploiement des applications avec des bonnes pratiques DevOps.</span></pre>
+          <pre class="line"><span class="comment">// Optimisation de la performance des applications.</span></pre>
+          <pre class="line"><span class="comment">// Rédaction de documentation technique.</span></pre>
         </div><pre class="line">}</pre>
-        <pre class="line"><span class="keyword">public void</span> WindConsulting() {</pre>
+        <pre class="line"><span class="keyword">public void</span> WindConsultingTunisia() {</pre>
         <div class="block">
-          <pre class="line">var _Durée = Range(début: <span class="string">"01/2014"</span>, fin: <span class="string">"08/2014"</span>);</pre>
-          <pre class="line">var _Type = new <span class="string">CDI()</span>;</pre>
-          <pre class="line">/* Développement d’applications .NET interne */</pre>
-        </div><pre class="line">}</pre>
-        <pre class="line"><span class="keyword">public void</span> ProxymStage() {</pre>
-        <div class="block">
-          <pre class="line">var _Durée = Range(début: <span class="string">"06/2013"</span>, fin: <span class="string">"09/2013"</span>);</pre>
-          <pre class="line">var _Type = new <span class="string">Stage()</span>;</pre>
-          <pre class="line">/* Stage .NET — conception et tests de modules internes */</pre>
-        </div><pre class="line">}</pre>
-        <pre class="line"><span class="keyword">public void</span> CICStage() {</pre>
-        <div class="block">
-          <pre class="line">var _Durée = Range(début: <span class="string">"01/2013"</span>, fin: <span class="string">"04/2013"</span>);</pre>
-          <pre class="line">var _Type = new <span class="string">Stage()</span>;</pre>
-          <pre class="line">/* Stage .NET — réalisation d’outils bancaires */</pre>
+          <pre class="line">var _Durée = Range(début: <span class="string">"07/2017"</span>, fin: <span class="string">"01/2018"</span>);</pre>
+          <pre class="line">var _Lieu = <span class="string">"Tunisie"</span>;</pre>
+          <pre class="line">var _Role = <span class="string">"Développeur .NET"</span>;</pre>
+          <pre class="line">var _Technologies = new string[] { 
+            <span class="string">"ASP.NET MVC"</span>, <span class="string">"C#"</span>, <span class="string">"SQL Server"</span>, <span class="string">"Git"</span>, <span class="string">"Visual Studio"</span> };</pre>
+          <pre class="line"><span class="comment">// Développement de solutions logicielles destinées à améliorer la gestion des processus métier.</span></pre>
+          <pre class="line"><span class="comment">// Focus sur l'automatisation, la performance et l'optimisation des systèmes.</span></pre>
+          <pre class="line"><span class="comment">//</span></pre>
+          <pre class="line"><span class="comment">// • Conception et développement d’applications web avec ASP.NET MVC.</span></pre>
+          <pre class="line"><span class="comment">// • Optimisation des bases de données SQL Server.</span></pre>
+          <pre class="line"><span class="comment">// • Développement de nouvelles fonctionnalités dans des systèmes existants.</span></pre>
+          <pre class="line"><span class="comment">// • Gestion de la performance et de la sécurité des applications.</span></pre>
+          <pre class="line"><span class="comment">// • Tests et assurance qualité.</span></pre>
+          <pre class="line"><span class="comment">// • Formation et support technique.</span></pre>
         </div><pre class="line">}</pre>
         <pre class="line"><span class="keyword">public void</span> CloudStoreStage() {</pre>
         <div class="block">
-          <pre class="line">var _Durée = Range(début: <span class="string">"08/2012"</span>, fin: <span class="string">"01/2013"</span>);</pre>
-          <pre class="line">var _Type = new <span class="string">Stage()</span>;</pre>
-          <pre class="line">/* Stage .NET — développement web interne */</pre>
+          <pre class="line">var _Durée = Range(début: <span class="string">"02/2014"</span>, fin: <span class="string">"06/2014"</span>);</pre>
+          <pre class="line">var _Lieu = <span class="string">"Gouvernorat de Monastir, Tunisie · À distance"</span>;</pre>
+          <pre class="line">var _Role = <span class="string">"Stagiaire - Développeur .NET"</span>;</pre>
+          <pre class="line">var _Technologies = new string[] { 
+            <span class="string">"ASP.NET Web Forms"</span>, <span class="string">"C#"</span>, <span class="string">"SQL Server"</span>, <span class="string">"Git"</span>, <span class="string">"Visual Studio"</span> };</pre>
+          <pre class="line"><span class="comment">// Stage dans une entreprise spécialisée dans la gestion des stocks et la vente en ligne.</span></pre>
+          <pre class="line"><span class="comment">// Contribution au développement et à l’amélioration de plusieurs fonctionnalités du système de gestion interne.</span></pre>
+          <pre class="line"><span class="comment">//</span></pre>
+          <pre class="line"><span class="comment">// • Développement d’un module de gestion des stocks.</span></pre>
+          <pre class="line"><span class="comment">// • Création d’interfaces utilisateurs dynamiques avec ASP.NET Web Forms.</span></pre>
+          <pre class="line"><span class="comment">// • Optimisation de l’accès aux données avec SQL Server.</span></pre>
+          <pre class="line"><span class="comment">// • Fonctionnalités avancées (filtres, tris, export Excel).</span></pre>
+          <pre class="line"><span class="comment">// • Tests et validation fonctionnelle.</span></pre>
+          <pre class="line"><span class="comment">// • Rédaction de documentation technique.</span></pre>
         </div><pre class="line">}</pre>
-      </div><pre class="line">}</pre>
+      </div>
+      <pre class="line">}</pre>
     </div>
   </div>
 </body>
