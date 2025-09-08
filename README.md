@@ -1,71 +1,33 @@
-# 🧠 Mini Analyseur de Code C# — Projet Éducatif
+# 👨‍💻 Ahmed Oumezzine
 
-> Un outil web interactif pour analyser la qualité du code C# en temps réel — parfait pour l’apprentissage, la revue de code ou l’amélioration des pratiques pour les développeurs.
+🚀 Développeur Full Stack .NET | Passionné par les architectures modernes & les expériences web performantes  
+📍 Basé au Canada | Résident Permanent | Ouvert aux collaborations à distance
 
-![Mini Analyseur C#](https://via.placeholder.com/800x400?text=Mini+Analyseur+C%23+Interface)
-
----
-
-## 🎯 Fonctionnalités
-
-Cet outil analyse ton code C# et te donne des **retours immédiats** sur :
-
-✅ **Nommage** — Respect des conventions (PascalCase, _camelCase)  
-✅ **Complexité cyclomatique** — Score sur 20 + niveaux (Faible → Critique)  
-✅ **Variables inutilisées** — Détection des variables déclarées mais non utilisées  
-✅ **Visibilité** — Éviter les champs publics, suggérer `private` implicite  
-✅ **Console.WriteLine** — Détecter les `Console.WriteLine` (à éviter en prod)  
-✅ **Documentation XML** — Vérifier la présence de `/// <summary>`
+Bienvenue sur mon profil GitHub ! Je conçois des solutions web robustes, évolutives et centrées utilisateur. J’aime transformer des idées complexes en applications simples, efficaces et maintenables. Ce profil inclut également des projets qui aident à la **revue de code**, au développement et à l’apprentissage.
 
 ---
 
-## 🚀 Démonstration
+## 🌟 À propos de moi
 
-Colle ton code C# → Clique sur “Analyser” → Obtenez des retours en temps réel :
+💡 Curieux, autonome et toujours en veille technologique, j’ai une forte affinité avec :
 
-- 🔴 **Erreurs** (ex: mauvais nommage)
-- 🟠 **Avertissements** (ex: complexité élevée, variables inutilisées)
-- 🔵 **Suggestions** (ex: documentation manquante, visibilité à ajuster)
-
-Si aucune erreur n’est détectée, le système indiquera que le code est de bonne qualité et prêt à être utilisé ou revu.
-
----
-
-## 🧰 Technologies utilisées
-
-- **Frontend** : HTML, CSS, Bootstrap 5, JavaScript, Monaco Editor
-- **Backend** : ASP.NET Core (C#)
-- **Analyseurs** : Regex, parsing manuel, règles métier
-- **UI/UX** : Design responsive, modals Bootstrap, surlignage dynamique
+- Le développement **.NET / ASP.NET Core**
+- La conception d’interfaces dynamiques avec **Blazor** & **JavaScript**
+- L'intégration **DevOps / Cloud (Azure)**
+- Le développement de **plateformes e-learning**, **blogs tech** et **API REST**
 
 ---
 
-## 📦 Installation & Exécution
+## 🧰 Compétences techniques
 
-### Prérequis
-
-- [.NET 6.0 ou +](https://dotnet.microsoft.com/download)  
-- [Node.js (optionnel, pour extensions)](https://nodejs.org/)
-
-### Étapes
-
-1. Clone le dépôt :
-   ```bash
-   git clone https://github.com/ahmedOumezzine/CSharpCodeAnalyzer.git
-   cd CSharpCodeAnalyzer
-   ```
-2. Restaure les packages :
-   ```bash
-   dotnet restore
-   ```
-3. Lancer l’application :
-   ```bash
-   dotnet run
-   ```
-4. Ouvrir le navigateur :
-   ```
-   https://localhost:5001
-   ```
+| Domaines         | Outils & Technologies |
+|------------------|------------------------|
+| Langages         | C#, JavaScript, HTML, CSS, SQL |
+| Frameworks       | ASP.NET Core, Blazor, Entity Framework Core, Angular |
+| Cloud & DevOps   | Azure, Firebase, GitHub Actions |
+| Tests & Qualité  | xUnit, Moq, Postman |
+| Base de données  | SQL Server, SQLite |
+| Environnements   | Visual Studio, VS Code, Git, GitHub |
 
 ---
 
@@ -86,64 +48,14 @@ Si aucune erreur n’est détectée, le système indiquera que le code est de bo
 
 ---
 
-## 📚 Exemples de tests
-
-Colle ces codes pour tester :
-
-**Test Nommage**
-```csharp
-public class Test
-{
-    public void badName() { } // → Erreur : PascalCase
-    private string field;     // → Warning : _camelCase
-}
-```
-
-**Test Complexité**
-```csharp
-public void ComplexMethod()
-{
-    for (int i = 0; i < 10; i++)
-    {
-        if (i % 2 == 0 && i > 5 || i < 3)
-        {
-            switch (i)
-            {
-                case 1: break;
-                case 2: break;
-            }
-        }
-    }
-} // → Complexité : 10/20 (Moyenne) ⚠️
-```
-
-**Test Documentation XML**
-```csharp
-public class Sample
-{
-    /// <summary>
-    /// Effectue un calcul
-    /// </summary>
-    public int Compute() { return 0; }
-}
-```
-
----
-
-## 🐛 Signaler un bug / issue
-
-Si vous trouvez un bug ou souhaitez suggérer une amélioration, merci de créer un ticket ici :  
-🔗 [Issues GitHub](https://github.com/ahmedOumezzine/CSharpCodeAnalyzer/issues)
-
----
-
-## 📬 Contact
+## 📬 Me contacter
 
 - ✉️ **Email** : ahmedoumezzine@outlook.fr  
 - 🔗 **LinkedIn** : [https://www.linkedin.com/in/ahmedoumezzine/](https://www.linkedin.com/in/ahmedoumezzine/)
+- 🌐 **Blog perso** : [blog.oumezzine.com](https://blog.oumezzine.com)
 
 ---
 
-Merci d’avoir visité ce projet !  
-👉 Explorez le code, testez vos scripts C# et améliorez vos pratiques de développement.
+Merci d’avoir visité mon profil !  
+👉 N’hésitez pas à parcourir mes projets, me suivre ou m’envoyer un message pour échanger 👇
 
